@@ -2,7 +2,8 @@
 
 
 ## Preview
-![Capture231](https://github.com/Faqih26/dicoding/assets/74944172/fd26a741-35c2-4d42-b806-ac69741fd2ce)
+![Capture231](https://github.com/Faqih26/Dicoding-Submission-Bike-Sharing/assets/74944172/68bce74d-c381-494d-8d19-8026665810e6)
+
 
 
 ## Install Proyek untuk digunakan
