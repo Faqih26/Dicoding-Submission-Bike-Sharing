@@ -56,8 +56,8 @@ hrdd = hrdd(h_df)
 seasond = seasond(h_df)
 
 # pengaruh hari kerja mempengeruhi pengunaan bike sharing
-st.header("Bike Sharing Dashboard :")
-st.subheader("Working Day")
+st.header("Bike Share Monitoring Dashboard :")
+st.subheader("Workday")
 fig, ax = plt.subplots(figsize=(20, 10))
 sns.barplot(
     y="sum",
@@ -65,11 +65,10 @@ sns.barplot(
     data=holiday.sort_values(by="holiday", ascending=False),
     ax=ax
 )
-ax.set_title("Number Bike by hari kerja", loc="center", fontsize=15)
-ax.set_ylabel("Jumlah Pengguna")
-ax.set_xlabel(None)
-ax.tick_params(axis="x", labelsize=20)
-ax.tick_params(axis="y", labelsize=15)
+ax.set_title("Number of Bicycles on Workdays", loc="center", fontsize=50)
+ax.set_ylabel("Number of Users")
+ax.tick_params(axis="x", labelsize=30)
+ax.tick_params(axis="y", labelsize=20)
 st.pyplot(fig)
 
 #working holiday
@@ -80,11 +79,10 @@ sns.barplot(
     x="hr",
     data=hrdd.sort_values(by="hr", ascending=False),
 )
-ax.set_title("Number of Bike Sharing by Hour", loc="center", fontsize=15)
-ax.set_ylabel("Jumlah Pengguna")
-ax.set_xlabel(None)
-ax.tick_params(axis="x", labelsize=20)
-ax.tick_params(axis="y", labelsize=15)
+ax.set_title("Number of Bike Sharing by Hour", loc="center", fontsize=50)
+ax.set_ylabel("Number of Users")
+ax.tick_params(axis="x", labelsize=30)
+ax.tick_params(axis="y", labelsize=20)
 st.pyplot(fig)
 
 #time of day
@@ -95,11 +93,10 @@ sns.barplot(
     x="time_of_day",
     data=hrdd.sort_values(by="time_of_day", ascending=False),
 )
-ax.set_title("Number of Bike Sharing by Time Of Day", loc="center", fontsize=15)
-ax.set_ylabel("Jumlah Pengguna")
-ax.set_xlabel(None)
-ax.tick_params(axis="x", labelsize=20)
-ax.tick_params(axis="y", labelsize=15)
+ax.set_title("Number of Bike Sharing by Time Of Day", loc="center", fontsize=50)
+ax.set_ylabel("Number of Users")
+ax.tick_params(axis="x", labelsize=30)
+ax.tick_params(axis="y", labelsize=20)
 st.pyplot(fig)
 
 st.subheader("Season")
@@ -109,14 +106,11 @@ sns.barplot(
     x="season",
     data=seasond.sort_values(by="season", ascending=False),
 )
-ax.set_title("Number of Bike Sharing by Season", loc="center", fontsize=15)
-ax.set_ylabel("Jumlah Pengguna")
-ax.set_xlabel(None)
-ax.tick_params(axis="x", labelsize=20)
-ax.tick_params(axis="y", labelsize=15)
+ax.set_title("Number of Bike Sharing by Season", loc="center", fontsize=50)
+ax.set_ylabel("Number of Users")
+ax.tick_params(axis="x", labelsize=30)
+ax.tick_params(axis="y", labelsize=20)
 st.pyplot(fig)
-
-
 
 if __name__ == "__main__":
     copyright = "Copyright © " + "2023 | Bike Sharing Dashboard | All Rights Reserved | " + "Made by: [@FaqihSuryana](https://www.linkedin.com/in/faqihsuryana/)"
