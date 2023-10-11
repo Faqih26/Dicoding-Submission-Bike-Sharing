@@ -1,4 +1,4 @@
-# dicoding
+# Dicoding-Submission-Bike-Sharing
 
 
 ## Preview
@@ -30,4 +30,4 @@ Ikuti langkah berikut ini untuk menjalankan proyek ini:
 
 
 5. Untuk menghentikannya ketik `ctrl + c`.
-# Dicoding-Submission-Bike-Sharing
+
