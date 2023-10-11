@@ -18,7 +18,7 @@ Ikuti langkah berikut ini untuk menjalankan proyek ini:
    ```
    cd Bike-Sharing-dataset
    ```
-   ![23](https://github.com/Faqih26/dicoding/assets/74944172/35caf787-4488-44e4-972d-9067d73b308e)
+   ![23](https://github.com/Faqih26/Dicoding-Submission-Bike-Sharing/assets/74944172/0c50a81d-4d54-4ab7-9b31-3b3549a5225f)
 
 
 3. Install setiap kebutuhan yaitu streamlit,pandas,numpy,seaborn dll
@@ -27,7 +27,8 @@ Ikuti langkah berikut ini untuk menjalankan proyek ini:
    ```
    streamlit run Dashboard-Bike.py
    ```
-   ![;;](https://github.com/Faqih26/dicoding/assets/74944172/08f2a6b4-b95a-4b64-ad67-8d9d901efcad)
+![;;](https://github.com/Faqih26/Dicoding-Submission-Bike-Sharing/assets/74944172/743d4629-2dea-4621-87ef-a8bbb4a05a94)
+
 
 
 5. Untuk menghentikannya ketik `ctrl + c`.
